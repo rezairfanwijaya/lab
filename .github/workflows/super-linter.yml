@@ -8,8 +8,13 @@ name: Lint Code Base
 
 on:
   push:
-    branches: [ dev ]
+    branches: 
+      - dev
+    path :
+      - "public/**"
+        
   
+
 jobs:
   run-lint:
     runs-on: ubuntu-latest

@@ -1,2 +1,2 @@
-var root = document.getElementById('root')
-root.innerHTML = 'Hallo CICD'
+var rodt = document.getElementById('root')
+rdot.innerHTML = 'Hallo CICD'

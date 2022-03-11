@@ -1,0 +1,18 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - dev  # Set a branch name to trigger deployment
+    paths:
+      - "public/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Deploy
+        uses: peaceiris/actions-main@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

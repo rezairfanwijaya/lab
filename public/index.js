@@ -1,3 +1,3 @@
-const kakak = document.getElementById('field')
-console.log(kakak)
-kakak.innerHTML = 'Hallo'
+const adek = document.getElementById('field')
+console.log(adek)
+adek.innerHTML = 'Hallo'

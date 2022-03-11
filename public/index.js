@@ -1,3 +1,3 @@
-const awok = document.getElementById('field')
-console.log(awok)
-awok.innerHTML = 'Hallo'
+const wk = document.getElementById('field')
+console.log(wk)
+wk.innerHTML = 'Hallo'

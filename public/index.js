@@ -1,3 +1,3 @@
-const hallo = dov.getElementById('field')
+const hallo = document.getElementById('field')
 console.log(hallo)
 hallo.innerHTML = 'Hallo'

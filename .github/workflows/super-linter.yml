@@ -11,8 +11,9 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  paths :
-    - "public/**"
+    paths :
+      - "public/**"
+      
 jobs:
   run-lint:
     runs-on: ubuntu-latest

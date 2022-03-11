@@ -1,3 +1,3 @@
-var field = document.getElementById('field')
+let field = document.getElementById('field')
 console.log(field)
-field.innerHTML = "Hallo"
+field.innerHTML = 'Hallo'

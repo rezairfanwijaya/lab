@@ -1,3 +1,3 @@
-const field = document.getElementById('field')
-console.log(field)
-field.innerHTML = 'Hallo'
+const hallo = dov.getElementById('field')
+console.log(hallo)
+hallo.innerHTML = 'Hallo'
